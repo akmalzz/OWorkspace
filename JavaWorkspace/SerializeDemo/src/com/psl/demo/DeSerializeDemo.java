@@ -35,7 +35,7 @@ public class DeSerializeDemo
 			Employee e = (Employee)ois.readObject();
 			System.out.println(e);
 			
-			while(e!=null)
+			while(e!=null)//*
 			{	try
 				{
 					e = (Employee)ois.readObject();
