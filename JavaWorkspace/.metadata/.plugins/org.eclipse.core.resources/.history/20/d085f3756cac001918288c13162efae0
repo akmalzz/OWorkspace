@@ -1,0 +1,15 @@
+package com.psl.prob8;
+
+public class Prob8 
+{
+	static double calculateBill(int units, String type)
+	{
+		double bill = 0.0;
+	}
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

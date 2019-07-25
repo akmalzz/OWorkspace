@@ -1,0 +1,26 @@
+package com.psl.prob6;
+
+public class Prob6 
+{
+	static int isPrime(int num)
+	{
+		for(int i=2; i<num; i++)
+		{
+			if(num % i == 0)
+				return -1;
+		}
+		return num;
+	}
+	
+	static void printPrime(int maxVal)
+	{
+		
+	}
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+}

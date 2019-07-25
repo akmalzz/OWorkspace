@@ -1,0 +1,5 @@
+package com.psl.assgn1;
+
+public class EmployeeNotFoundException {
+
+}

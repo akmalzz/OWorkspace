@@ -1,0 +1,8 @@
+package com.psl.demo;
+
+public enum Coffee 
+{
+	Small(50),Medium(80),Large(180);
+	
+	Coff
+}

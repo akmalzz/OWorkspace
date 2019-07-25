@@ -1,0 +1,8 @@
+package com.psl.prob2;
+
+public class Product 
+{
+	int productId;
+	String productName;
+	long serialNumber;
+}

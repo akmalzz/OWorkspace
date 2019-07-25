@@ -1,0 +1,10 @@
+package com.psl.prob1;
+
+public class Customer 
+{
+	int id;
+	String name;
+	int homePhone, cellPhone, workPhone;
+	String street, city, state;
+	int zip;
+}

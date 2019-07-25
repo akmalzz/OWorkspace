@@ -1,0 +1,87 @@
+package com.psl.assgn1;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+import java.util.Scanner;
+
+public class Client 
+{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		EOperations e = new EOperations();
+		String filename = "Employee.txt";
+		Scanner sc = new Scanner(System.in);
+		List<Employee> eList = null;
+
+		boolean getOut = false;
+		int choice;
+		int empid;
+		String skill;
+		
+		while(getOut != true)
+		{
+			System.out.println("1.Display Employees\n2.Search Employees\n3.Add Skill to an employee\n4.Add new Employee\n5.Exit");
+			choice = sc.nextInt();
+			
+			switch(choice)
+			{
+			 case 1:
+				 eList = e.readEmployeeDetails(filename);
+				 for(Employee emp : eList)
+				 {
+					 System.out.println(emp);
+				 }
+				 break;
+				 
+			 case 2:
+				 System.out.println("Enter Skill to search Employee with matching Skill");
+				 skill = sc.next();
+				 List<Employee> sList = null;
+				 try
+				 {
+				 	sList = e.searchEmployees(skill);
+				 }
+				 catch(EmployeeNotFoundException ex)
+				 {
+					 ex.printStackTrace();
+				 }
+				 if(sList!=null)
+				 {
+					 for(Employee emp : sList)
+					 {
+						 System.out.println(emp);
+					 }
+				 }
+				 break;
+				 
+			 case 3:
+				 System.out.println("Enter Skill to search Employee with matching Skill");
+				 skill = sc.next();
+				 System.out.println("Enter Skill to search Employee with matching Skill");
+				 empid = sc.nextInt();
+				 
+				 e.addSkill(empid,skill,eList);
+				 break;
+				 
+			 case 4:
+
+				 break;			 
+			 
+			 case 5:
+				 System.out.println("Bye !!! See You Soon");
+				 getOut = true;
+				 break;
+				 
+			 default:
+				 System.out.println("Try Something else");
+				 break;
+			}
+		}
+				
+		sc.close();
+	}
+
+}

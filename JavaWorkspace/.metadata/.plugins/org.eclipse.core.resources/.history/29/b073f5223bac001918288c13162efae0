@@ -1,0 +1,36 @@
+package com.psl.prob2;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+public class Prob2 
+{
+
+	Map<String,Integer> populateSData(String filename)
+	{
+		Map<String,Integer> cityTemp = new HashMap<String, Integer>();
+		
+		try
+		{
+			
+		}
+		catch(FileNotFoundException e)
+		{
+			e.printStackTrace();
+		}
+		catch(IOException e)
+		{
+			e.printStackTrace();
+		}
+		
+		return cityTemp;
+	}
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,38 @@
+package com.psl.Prob1;
+
+import java.util.Scanner;
+
+public class AverageCalculator 
+{
+	public double avgFirstN(int n)
+	{
+		int sum = 0;
+		
+		for (int i = 1; i <= n; i++) 
+		{
+			sum+=i;
+		}
+		return (double)sum/n; 
+	}
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		AverageCalculator avc = new AverageCalculator();
+		try
+		{
+			System.out.println("Enter a number to get average of 1 to that number :");
+			int d = sc.nextInt();
+
+			double avg = avc.avgFirstN("df");
+			System.out.println("Avgerage : " + avg);
+				
+		}
+		catch (IllegalArgumentException e) {
+			// TODO: handle exception
+		}
+
+	}
+
+}

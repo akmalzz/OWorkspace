@@ -1,0 +1,27 @@
+package com.psl.demo;
+
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class HashSetDemo 
+{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Set<String> list = new HashSet<String>();
+		
+		
+		list.add(new Employee(104, "Akash", 10000));
+		list.add(new Employee(102, "Ajinkya", 20000));
+		list.add(new Employee(101, "Harshada", 30000));
+	
+		System.out.println("List Before Sort : " + list);
+		
+		
+		Collections.sort(list);
+	}
+
+}

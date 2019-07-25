@@ -1,0 +1,13 @@
+package com.psl.prob2;
+
+public class Hardware extends Product
+{
+	int length;
+	int breadth;
+	int capacity;
+	String brand;
+	boolean powerSupply;
+	boolean batteryBackup;
+	
+	
+}

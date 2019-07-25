@@ -1,0 +1,21 @@
+package com.psl.Prob3;
+
+public class BankAccount 
+{
+	int accNo;
+	String custName;
+	enum accType
+	{
+		Savings, Current
+	}
+	float balance;
+
+	
+	
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+}

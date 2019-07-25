@@ -1,0 +1,18 @@
+package com.psl.prob4;
+
+public class Prob4 
+{
+
+	static double calTax(int gp)
+	{
+		double taxOwed = 0.0;
+		if(gp>0 && gp<=240)
+		return taxOwed;
+	}
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.psl.prob2;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Prob2 
+{
+
+	Map<String,Integer> populateSData(String filename)
+	{
+		Map<String,Integer> cityTemp = new HashMap<String, Integer>();
+		
+		
+		return cityTemp;
+	}
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

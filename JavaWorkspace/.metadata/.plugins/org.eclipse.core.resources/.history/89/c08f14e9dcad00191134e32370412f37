@@ -1,0 +1,11 @@
+package com.psl.demo;
+
+public enum Coffee 
+{
+	Small(50),Medium(80),Large(180);
+	
+	private Coffee(int p) {
+		// TODO Auto-generated constructor stub
+		this.p = p;
+	}
+}

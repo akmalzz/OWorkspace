@@ -1,0 +1,12 @@
+package com.psl.demo;
+
+public enum Coffee 
+{
+	Small,Medium,Large;
+	
+	private Coffee() {
+		this.Small = 10;
+		
+		// TODO Auto-generated constructor stub
+	}
+}

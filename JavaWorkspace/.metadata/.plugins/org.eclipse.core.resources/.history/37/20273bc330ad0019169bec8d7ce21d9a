@@ -1,0 +1,11 @@
+package com.psl.prob2;
+
+public class Hardware 
+{
+	int length;
+	int breadth;
+	int capacity;
+	String brand;
+	boolean powerSupply;
+	boolean batteryBackup;
+}

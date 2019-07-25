@@ -1,0 +1,36 @@
+package com.psl.prob8;
+
+public class Prob8 
+{
+	static double calculateBill(int units, String type)
+	{
+		double bill = 0.0;
+		switch(type.toLowerCase())
+		{
+			case "commercial":
+				break;
+				
+			case "domestic":
+				
+				if(units<=100)
+				{
+					bill = bill * 4;
+					if(bill<250)
+						bill = 250;
+				}
+				else if(units <= 300)
+					bill = bill * 4.5;
+				else if(units <= 500)
+					bill = bill * 4.75;
+				
+				break;
+		}
+		return bill;
+	}
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

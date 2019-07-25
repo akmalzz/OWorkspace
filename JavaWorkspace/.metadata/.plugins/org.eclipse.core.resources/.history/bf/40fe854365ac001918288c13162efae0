@@ -1,0 +1,16 @@
+package com.psl.prob1;
+
+public class Prob1 
+{
+	static int calMax(int x,int y,int z)
+	{
+		if(x > y && x > z)
+			return x
+	}
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		calMax(1,2,3);
+	}
+
+}

@@ -1,0 +1,5 @@
+101,Arjun,2017-2-2,pune,C;C++;Java, Technical, Accelerite
+102,Radha,2017-2-2,pune,JavaScript;HTML 5;JQuery;NODE,Technical,IBM
+103,Beena,2017-2-2,pune,Angular;Node.js;MongoDB,Technical,Accelerite
+104,Teena,2017-2-2,pune,Angular;Node.js;MongoDB,Technical,Finance
+105,Teena,2017-2-2,pune, C;C++;Java,Technical,Finance

@@ -1,0 +1,21 @@
+package com.psl.prob3;
+
+public class Prob3 
+{
+	static double calInterest(int amt)
+	{
+		double intrest = 0.0;
+		
+		if(amt <= 1000)
+			intrest = amt * 4;
+		else if(amt <= 50000)
+			intrest = amt * 4.5;
+		return intrest;
+	}
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

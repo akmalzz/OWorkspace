@@ -1,0 +1,3 @@
+CREATE table movies(mid int PRIMARY KEY AUTO_INCREMENT, movie_name varchar(50), language varchar(20),release_date date);
+
+CREATE table shows(sid int PRIMARY KEY AUTO_INCREMENT, show_time varchar(20),seats int , mid int ,FOREIGN KEY(mid) REFERENCES movies(mid) on delete cascade);

@@ -1,0 +1,9 @@
+package com.psl.jdbc;
+
+public class Moviedata 
+{
+	int movieId;
+	String name;
+	String language;
+	String date;
+}

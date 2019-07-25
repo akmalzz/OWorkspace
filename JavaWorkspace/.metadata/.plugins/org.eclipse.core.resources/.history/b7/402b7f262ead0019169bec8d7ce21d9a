@@ -1,0 +1,8 @@
+package com.psl.prob2;
+
+public class Software 
+{
+	String OS;
+	int Memory;
+	long licenseKey;
+}
