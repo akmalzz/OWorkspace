@@ -1,8 +1,0 @@
-package com.psl.prob2;
-
-public abstract class Product 
-{
-	int productId;
-	String productName;
-	long serialNumber;
-}

@@ -1,6 +1,0 @@
-package com.psl.prob2;
-
-public class CityNotFoundException extends Exception
-{
-
-}
