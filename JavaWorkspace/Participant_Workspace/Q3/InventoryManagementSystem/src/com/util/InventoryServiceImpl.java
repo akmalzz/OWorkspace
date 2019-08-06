@@ -216,12 +216,15 @@ public class InventoryServiceImpl implements InventoryService {
 	public void removeExpiredItems(List<Item> items) {
 		// TODO Auto-generated method stub
 		Date d = new Date();
-		
+		List<Item> tempList = new ArrayList<Item>();
+		tempList.addAll(items);
 		for(Item i : items)
 		{
 			if(d.getTime() >= i.getExpiryDate().getTime())
-				items.remove(i);
+				tempList.remove(i);
 		}
+		items.clear();
+		items.addAll(tempList);
 		
 	}
 

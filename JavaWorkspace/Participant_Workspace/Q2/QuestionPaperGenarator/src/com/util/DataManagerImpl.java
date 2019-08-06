@@ -131,6 +131,7 @@ public class DataManagerImpl implements DataManager {
 		int count = 0;
 		int size;
 		int index;
+		//int inficounter = 0;
 		for(Criteria c: template)
 		{
 			tQList = new ArrayList<Question>();
@@ -149,6 +150,7 @@ public class DataManagerImpl implements DataManager {
 				//System.out.println("Index : "+ index);
 				qSet.add(tQList.get(index));
 			}
+			//System.out.println("Done");
 		}
 		
 		

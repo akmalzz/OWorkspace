@@ -44,7 +44,7 @@ public class Client {
 		
 		try 
 		{
-			System.out.println(c.findAge("04-08-2019"));
+			System.out.println(c.findAge("08-09-1997"));
 		}
 		catch (InvalidDateFormatException e) 
 		{

@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import com.exception.CityNotFoundException;
+import com.exception.InvalidStateException;
 import com.util.DataManager;
 import com.util.DataManagerImpl;
 
@@ -38,6 +40,18 @@ public class Client {
 			System.out.println();
 		}
 		
+		try {
+			System.out.println(d.getCities(scMap, "Maharashtra"));
+		} catch (InvalidStateException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
+		try {
+			System.out.println(d.getState(scMap, "Mumbai"));
+		} catch (CityNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }

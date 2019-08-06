@@ -20,23 +20,24 @@ public class Client {
 			System.out.println(s);
 		}
 		
-		try 
-		{
-			sdm.validateData(sList);
-		} 
-		catch (InsufficientDataException e) 
-		{
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			//System.out.println("Yes\n\n");
-		}
+//		try 
+//		{
+//			sdm.validateData(sList);
+//		} 
+//		catch (InsufficientDataException e) 
+//		{
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//			//System.out.println("Yes\n\n");
+//		}
+
+		sdm.sortData(sList);
+
+		System.out.println("Sorted...");
 		for(Student s : sList)
 		{
 			System.out.println(s);
-		}
-		sdm.sortData(sList);
-
-		
+		}	
 	
 	}
 }

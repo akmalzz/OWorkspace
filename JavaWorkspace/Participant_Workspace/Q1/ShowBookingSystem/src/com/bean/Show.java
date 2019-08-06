@@ -26,5 +26,10 @@ public class Show implements Serializable {
 	}
 	public void setSeatsAvailable(int seatsAvailable) {
 		this.seatsAvailable = seatsAvailable;
-	}	
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return serialVersionUID +" "+getShowName()+" "+ getShowTime()+" "+ getSeatsAvailable();
+	}
 }

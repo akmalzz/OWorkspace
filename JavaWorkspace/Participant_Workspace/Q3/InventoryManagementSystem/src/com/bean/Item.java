@@ -14,7 +14,11 @@ public class Item {
 	public Item() {
 		// TODO Auto-generated constructor stub
 	}	
-
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return getId() +" "+ getDescription() +" "+ getWeight() +" "+ getPrice() +" "+ getManufacturingDate() +" "+ getUseBeforeMonths() +" "+ getExpiryDate();
+	}
 	public int getId() {
 		return id;
 	}
@@ -58,4 +62,5 @@ public class Item {
 	public Date getExpiryDate() {
 		return expiryDate;
 	}	
+	
 }

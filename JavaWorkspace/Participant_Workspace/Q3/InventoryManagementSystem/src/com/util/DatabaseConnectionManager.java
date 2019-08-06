@@ -15,7 +15,7 @@ public class DatabaseConnectionManager implements DBConnectionUtil {
 		// TODO Auto-generated method stub
 		
 		Class.forName("com.mysql.jdbc.Driver");
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/inventorydb", "root", "rio147");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/inventorydb", "root", "root");
 		
 		return con;
 	}

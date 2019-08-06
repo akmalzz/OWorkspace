@@ -29,7 +29,7 @@ public class PhoneBookContactsImpl implements PhoneBookContacts {
 		// TODO Auto-generated method stub
 		List<String> list = contactMap.get(name);
 		
-		if(list.isEmpty())
+		if(list==null)
 			throw new NoDataFoundException();
 		
 		return list;

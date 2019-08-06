@@ -19,9 +19,9 @@ CREATE TABLE `cheese_tbl` (
   `protein` float DEFAULT NULL,
   `vitaminB1` float DEFAULT NULL,
   `fat` float DEFAULT NULL
-) 
+); 
 
-INSERT INTO `cheese_tbl` VALUES 
+INSERT INTO cheese_tbl VALUES 
 (1001,'Mozzarella Cheese - Best for Pizza Preparation',200,200,'2014-01-09',12,'Mozzarella',30,0.57,0.33),
 (1002,'Goat Cheese Low calories -Easy Spread',300,300,'2014-01-10',3,'Easy_Spread',0.33,33.99,0.57),
 (1003,'Cottage Cheese High Protine and Energy',400,400,'2014-05-28',6,'Cottage',0.33,20.2,0.57);
@@ -42,7 +42,7 @@ CREATE TABLE `milk_tbl` (
   `useBeforeInMonths` int(11) DEFAULT NULL,
   `fatRate` float DEFAULT NULL,
   `milkType` varchar(20) DEFAULT NULL  
-) 
+); 
 
 
 INSERT INTO `milk_tbl` VALUES 
@@ -64,7 +64,7 @@ CREATE TABLE `wheat_tbl` (
   `mfg_date` date DEFAULT NULL,
   `useBeforeInMonths` int(11) DEFAULT NULL,
   `wheatType` varchar(20) DEFAULT NULL 
-)
+);
 
 INSERT INTO `wheat_tbl` VALUES 
 (1007,'Special Wheat from Punjab',1,32,'2014-01-20',24,'Punjab1002'),

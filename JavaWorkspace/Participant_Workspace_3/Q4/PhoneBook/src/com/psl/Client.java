@@ -38,7 +38,7 @@ public class Client {
 		try 
 		{
 			System.out.println(contacts.searchContact("Akmal"));
-			System.out.println(contacts.searchContact("Akram"));
+			//System.out.println(contacts.searchContact("Akram"));
 		} 
 		catch (NoDataFoundException e) 
 		{

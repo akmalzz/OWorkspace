@@ -16,7 +16,7 @@ public class Client
 		// Call your functionalities from here to test your code.
 		List<Criteria> template = new ArrayList<Criteria>();
 		
-		template.add(new Criteria(Category.GK, Complexity.Simple, 2));
+		template.add(new Criteria(Category.GK, Complexity.Simple, 2));		
 		template.add(new Criteria(Category.GK, Complexity.Medium, 1));
 		template.add(new Criteria(Category.GK, Complexity.Complex, 1));
 		template.add(new Criteria(Category.Science, Complexity.Complex, 1));
